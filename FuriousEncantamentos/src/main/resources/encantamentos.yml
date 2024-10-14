@@ -1,0 +1,70 @@
+#   FuriousEncantamentos
+#   Plugin para encantamentos da rede Furious
+#   Feito por: Lucas Parisi
+
+## GUIA DOS NOMES DOS ENCANTAMENTOS: ( IMPORTANTE O NOME DO ENCANTAMENTO ESTAR IGUAL O DE BAIXO )
+
+# PROTECTION_ENVIRONMENTAL = Proteção
+# PROTECTION_FIRE = Proteção contra fogo
+# PROTECTION_FALL = Proteção contra dano de queda
+# PROTECTION_EXPLOSIONS = Proteção contra explosões
+# PROTECTION_PROJECTILE = Proteção contra projéteis
+# THORNS = Espinhos
+# DEPTH_STRIDER = Andar mais rápido na agua
+# DAMAGE_ALL = Sharpness/Afiação
+# DAMAGE_UNDEAD = Smite
+# DAMAGE_ARTHROPODS = Bane of arthropods
+# KNOCKBACK = Repulsão
+# FIRE_ASPECT = Aspecto flamejante
+# LOOT_BONUS_MOBS = Looting
+# DIG_SPEED = Eficiência
+# SILK_TOUCH = Toque suave
+# DURABILITY = Inquebrável
+# LOOT_BONUS_BLOCKS = Fortuna
+# ARROW_DAMAGE = Força/Power (Arco)
+# ARROW_KNOCKBACK = Impulsão (Arco)
+# ARROW_FIRE = Fogo (Arco)
+# ARROW_INFINITE = Infinito (Arco)
+encantamentos:
+  - DURABILITY: [1, 2, 3, 4]
+  # ESPADAS
+  - DAMAGE_ALL: [1, 2, 3, 4]
+  - LOOT_BONUS_MOBS: [1, 2, 3, 4]
+  - FIRE_ASPECT: [1, 2]
+  - DAMAGE_UNDEAD: [1, 2, 3, 4]
+  # ARMADURAS
+  - PROTECTION_EXPLOSIONS: [1, 2, 3, 4]
+  - PROTECTION_PROJECTILE: [1, 2, 3, 4]
+  - THORNS: [1, 2, 3, 4]
+  - PROTECTION_ENVIRONMENTAL: [1, 2, 3, 4]
+  # PICARETAS
+  - SILK_TOUCH: [1, 2, 3, 4]
+  - DIG_SPEED: [1, 2, 3, 4]
+  - LOOT_BONUS_BLOCKS: [1, 2, 3, 4]
+  # ARCOS
+  - ARROW_DAMAGE: [1, 2]
+
+levels:
+  - 1:
+      xpCost: 1 # Custo de xp para encantar o item
+      showChance: 80 # Chance de aparecer o encantamento
+  - 2:
+      xpCost: 2
+      showChance: 10
+  - 3:
+      xpCost: 3
+      showChance: 10
+  - 4:
+      xpCost: 4
+      showChance: 10
+  - 5:
+      xpCost: 5
+      showChance: 10
+
+mensagens:
+  - xpInsuficiente: "Voce nao possui xp suficiente"
+  - custoXp: "&a$xp XP"
+  - estanteDeLivrosInsuficientes: "&4 Voce precisa de mais $numeroDeEstantes estantes para usar a mesa de encantamentos!"
+
+
+bookshelfs: 16

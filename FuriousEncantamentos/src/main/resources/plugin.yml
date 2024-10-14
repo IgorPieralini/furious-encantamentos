@@ -1,0 +1,9 @@
+name: FuriousEncantamentos
+version: '${project.version}'
+main: org.furious.furiousencantamentos.FuriousEncantamentos
+description: Plugin customizado de encantamentos para a Rede Furious
+commands:
+  rlencantamentos:
+    description: Recarregar o arquivo do yml de encantamentos
+    permission-message: "§cVocê não tem permissão para usar o comando '/rlencantamentos'."
+    aliases: [ rle, reloade, rlenchant, encantamentosreload ]

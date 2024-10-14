@@ -1,0 +1,11 @@
+org\furious\furiousencantamentos\config\EnchantmentConfig.class
+org\furious\furiousencantamentos\model\Cuboid$CuboidIterator.class
+org\furious\furiousencantamentos\config\Config.class
+org\furious\furiousencantamentos\model\Cuboid$1.class
+org\furious\furiousencantamentos\FuriousEncantamentos.class
+org\furious\furiousencantamentos\events\OpenEnchantmentTableEvent.class
+org\furious\furiousencantamentos\model\Cuboid$CuboidDirection.class
+org\furious\furiousencantamentos\model\Cuboid.class
+org\furious\furiousencantamentos\model\EnchantmentTableInventoryHolder.class
+org\furious\furiousencantamentos\commands\ReloadPluginCommand.class
+org\furious\furiousencantamentos\model\CustomEnchantment.class
